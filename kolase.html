@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kolase Foto - OPS SELOGIRI</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #0078d4;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eaeaea;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Galeri Kolase Foto OPS SELOGIRI</h1>
+    <p>Kumpulan dokumentasi kegiatan operator sekolah</p>
+  </header>
+
+  <section class="gallery">
+    <img src="https://source.unsplash.com/400x300/?school,education" alt="Foto 1">
+    <img src="https://source.unsplash.com/400x300/?students,community" alt="Foto 2">
+    <img src="https://source.unsplash.com/400x300/?classroom,group" alt="Foto 3">
+    <img src="https://source.unsplash.com/400x300/?event,learning" alt="Foto 4">
+    <img src="https://source.unsplash.com/400x300/?people,activity" alt="Foto 5">
+    <img src="https://source.unsplash.com/400x300/?ceremony,school" alt="Foto 6">
+    <img src="https://source.unsplash.com/400x300/?team,success" alt="Foto 7">
+    <img src="https://source.unsplash.com/400x300/?teacher,students" alt="Foto 8">
+    <!-- Tambahkan gambar lainnya di sini -->
+  </section>
+
+  <footer>
+    &copy; 2025 OPS SELOGIRI | Semua dokumentasi hanya untuk keperluan internal
+  </footer>
+
+</body>
+</html>
